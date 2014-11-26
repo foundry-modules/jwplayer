@@ -5,8 +5,6 @@
  *
  * @version 6.0
  */
-
-if (typeof jwplayer == "undefined") {
 /**
  * JW Player namespace definition
  * @version 6.0
@@ -2009,7 +2007,7 @@ jwplayer.source = document.createElement("source");
             }
         }
     };
-})(window.jwplayer);
+})(jwplayer);
 /**
  * Plugin package definition
  * @author zach
@@ -4572,7 +4570,7 @@ jwplayer.source = document.createElement("source");
         return null;
     };
 
-})(window.jwplayer);
+})(jwplayer);
 (function(jwplayer) {
     var events = jwplayer.events,
         utils = jwplayer.utils,
@@ -4769,5 +4767,3 @@ jwplayer.source = document.createElement("source");
  *
  * @version 6.0
  */
-
-}
